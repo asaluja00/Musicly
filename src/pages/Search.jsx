@@ -16,7 +16,7 @@ const Discover = () => {
     const songs= data?.tracks?.hits?.map((song) => song.track);
 
     console.log(songs);
-
+    console.log("test commit");
 
 
     if(isFetching) return <Loader title= "Loading Songs"/>;
